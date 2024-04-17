@@ -3,7 +3,7 @@ class Main{
     System.out.print("gloomy");
   }
   public static void seeds(int flowers){
-    if(flowers > 5){
+    if(flowers > 6){ // changed the num of flowers
       System.out.print(" \uD83C\uDF38");
       flowers -=1;
       seeds(flowers);
